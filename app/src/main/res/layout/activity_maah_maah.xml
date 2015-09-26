@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MaahMaahActivity"
+    android:background="#51b46a"
+    android:id="@+id/relativeLayou">
+
+    <TextView android:text="MAAH MAAHYO " android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#80ffffff"
+        android:id="@+id/labelTextview" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saddex Baa Boqornimada Kaa Qaadda:                                                                                               1) Gar weecsan.                                 2) Gacan gudhan.                      3) Guddoon jillicsan. "
+        android:id="@+id/maahmaahtextView"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/labelTextview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAAH MAAH KALE RIIX"
+        android:id="@+id/maahmaahbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white" />
+
+</RelativeLayout>
